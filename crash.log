@@ -1,0 +1,129 @@
+2022/01/31 21:45:46 [INFO] Packer version: 1.7.9 [go1.17.6 darwin arm64]
+2022/01/31 21:45:46 [TRACE] discovering plugins in /opt/homebrew/bin
+2022/01/31 21:45:46 [TRACE] discovering plugins in /Users/andrew/.config/packer/plugins
+2022/01/31 21:45:46 [TRACE] discovering plugins in .
+2022/01/31 21:45:46 [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/01/31 21:45:46 [INFO] PACKER_CONFIG env var set; attempting to open config file: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 [WARN] Config file doesn't exist: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 [INFO] Setting cache directory: /Users/andrew/.cache/packer
+2022/01/31 21:45:46 [TRACE] validateValue: not active for datastore_type, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for ssh_fullname, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for sockets, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for template_description, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for ssh_password, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for gateway, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for vmid, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for memory, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for boot_command_prefix, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for proxmox_host, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for template_name, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for hostname, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for ip_address, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for name_server, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for locale, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for cores, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for disk_size, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for proxmox_api_user, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for proxmox_api_token, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for iso, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for preseed_file, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for datastore, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for proxmox_node_name, so skipping
+2022/01/31 21:45:46 [TRACE] validateValue: not active for ssh_username, so skipping
+2022/01/31 21:45:46 [TRACE] Starting internal plugin packer-builder-proxmox
+2022/01/31 21:45:46 Starting plugin: /opt/homebrew/bin/packer []string{"/opt/homebrew/bin/packer", "plugin", "packer-builder-proxmox"}
+2022/01/31 21:45:46 Waiting for RPC address for: /opt/homebrew/bin/packer
+2022/01/31 21:45:46 packer-builder-proxmox plugin: [INFO] Packer version: 1.7.9 [go1.17.6 darwin arm64]
+2022/01/31 21:45:46 packer-builder-proxmox plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/01/31 21:45:46 packer-builder-proxmox plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 packer-builder-proxmox plugin: [WARN] Config file doesn't exist: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 packer-builder-proxmox plugin: [INFO] Setting cache directory: /Users/andrew/.cache/packer
+2022/01/31 21:45:46 packer-builder-proxmox plugin: args: []string{"packer-builder-proxmox"}
+2022/01/31 21:45:46 packer-builder-proxmox plugin: Plugin address: unix /var/folders/h2/v5d2k6cs6sddgm4b93k41hv80000gn/T/packer-plugin3083235546
+2022/01/31 21:45:46 Received unix RPC address for /opt/homebrew/bin/packer: addr is /var/folders/h2/v5d2k6cs6sddgm4b93k41hv80000gn/T/packer-plugin3083235546
+2022/01/31 21:45:46 packer-builder-proxmox plugin: Waiting for connection...
+2022/01/31 21:45:46 packer-builder-proxmox plugin: Serving a plugin connection...
+2022/01/31 21:45:46 packer-builder-proxmox plugin: CPU type not set, using default 'kvm64'
+2022/01/31 21:45:46 packer-builder-proxmox plugin: SCSI controller not set, using default 'lsi'
+2022/01/31 21:45:46 [TRACE] Starting internal plugin packer-provisioner-shell
+2022/01/31 21:45:46 Starting plugin: /opt/homebrew/bin/packer []string{"/opt/homebrew/bin/packer", "plugin", "packer-provisioner-shell"}
+2022/01/31 21:45:46 Waiting for RPC address for: /opt/homebrew/bin/packer
+2022/01/31 21:45:46 packer-provisioner-shell plugin: [INFO] Packer version: 1.7.9 [go1.17.6 darwin arm64]
+2022/01/31 21:45:46 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/01/31 21:45:46 packer-provisioner-shell plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 packer-provisioner-shell plugin: [WARN] Config file doesn't exist: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 packer-provisioner-shell plugin: [INFO] Setting cache directory: /Users/andrew/.cache/packer
+2022/01/31 21:45:46 packer-provisioner-shell plugin: args: []string{"packer-provisioner-shell"}
+2022/01/31 21:45:46 Received unix RPC address for /opt/homebrew/bin/packer: addr is /var/folders/h2/v5d2k6cs6sddgm4b93k41hv80000gn/T/packer-plugin2614386046
+2022/01/31 21:45:46 packer-provisioner-shell plugin: Plugin address: unix /var/folders/h2/v5d2k6cs6sddgm4b93k41hv80000gn/T/packer-plugin2614386046
+2022/01/31 21:45:46 packer-provisioner-shell plugin: Waiting for connection...
+2022/01/31 21:45:46 packer-provisioner-shell plugin: Serving a plugin connection...
+2022/01/31 21:45:46 [TRACE] Starting internal plugin packer-post-processor-shell-local
+2022/01/31 21:45:46 Starting plugin: /opt/homebrew/bin/packer []string{"/opt/homebrew/bin/packer", "plugin", "packer-post-processor-shell-local"}
+2022/01/31 21:45:46 Waiting for RPC address for: /opt/homebrew/bin/packer
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: [INFO] Packer version: 1.7.9 [go1.17.6 darwin arm64]
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: [WARN] Config file doesn't exist: /Users/andrew/.packerconfig
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: [INFO] Setting cache directory: /Users/andrew/.cache/packer
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: args: []string{"packer-post-processor-shell-local"}
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: Plugin address: unix /var/folders/h2/v5d2k6cs6sddgm4b93k41hv80000gn/T/packer-plugin171991400
+2022/01/31 21:45:46 Received unix RPC address for /opt/homebrew/bin/packer: addr is /var/folders/h2/v5d2k6cs6sddgm4b93k41hv80000gn/T/packer-plugin171991400
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: Waiting for connection...
+2022/01/31 21:45:46 packer-post-processor-shell-local plugin: Serving a plugin connection...
+2022/01/31 21:45:46 ui: [1;32mproxmox.autogenerated_1: output will be in this color.[0m
+2022/01/31 21:45:46 ui: 
+2022/01/31 21:45:46 Build debug mode: false
+2022/01/31 21:45:46 Force build: false
+2022/01/31 21:45:46 On error: 
+2022/01/31 21:45:46 Waiting on builds to complete...
+2022/01/31 21:45:46 Starting build run: proxmox.autogenerated_1
+2022/01/31 21:45:46 Running builder: 
+2022/01/31 21:45:46 [INFO] (telemetry) Starting builder proxmox.autogenerated_1
+2022/01/31 21:45:46 packer-builder-proxmox plugin: using <sensitive> auth
+2022/01/31 21:45:46 packer-builder-proxmox plugin: No URLs were provided to Step Download. Continuing...
+2022/01/31 21:45:46 ui: [1;32m==> proxmox.autogenerated_1: Creating VM[0m
+2022/01/31 21:47:02 packer-builder-proxmox plugin: panic: runtime error: invalid memory address or nil pointer dereference
+2022/01/31 21:47:02 packer-builder-proxmox plugin: [signal SIGSEGV: segmentation violation code=0x2 addr=0x40 pc=0x1052e1288]
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 
+2022/01/31 21:47:02 packer-builder-proxmox plugin: goroutine 73 [running]:
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/Telmate/proxmox-api-go/proxmox.(*Client).CreateQemuVm(0x140004e7950, {0x140003126d8, 0x3}, 0x14001137d40)
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/!telmate/proxmox-api-go@v0.0.0-20210804143723-a6998deceba2/proxmox/client.go:533 +0x138
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/Telmate/proxmox-api-go/proxmox.ConfigQemu.CreateVm({0x0, {0x140010b4150, 0x2b}, {0x105fd88ef, 0x19}, {0x0, 0x0}, {0x0, 0x0}, {0x0, ...}, ...}, ...)
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/!telmate/proxmox-api-go@v0.0.0-20210804143723-a6998deceba2/proxmox/config_qemu.go:190 +0x1150
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/hashicorp/packer-plugin-proxmox/builder/proxmox/iso.(*isoVMCreator).Create(0x10b46b578, 0x14000e7cb40, {0x0, {0x140010b4150, 0x2b}, {0x105fd88ef, 0x19}, {0x0, 0x0}, {0x0, ...}, ...}, ...)
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/hashicorp/packer-plugin-proxmox@v1.0.4/builder/proxmox/iso/builder.go:64 +0xe0
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/hashicorp/packer-plugin-proxmox/builder/proxmox/common.(*stepStartVM).Run(0x14001035430, {0x107ce2600, 0x14000a7f740}, {0x107ce32b0, 0x14001062900})
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/hashicorp/packer-plugin-proxmox@v1.0.4/builder/proxmox/common/step_start_vm.go:92 +0x55c
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/hashicorp/packer-plugin-sdk/multistep.(*BasicRunner).Run(0x140010629c0, {0x107ce2600, 0x14000a7f740}, {0x107ce32b0, 0x14001062900})
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/hashicorp/packer-plugin-sdk@v0.2.11/multistep/basic_runner.go:70 +0x274
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/hashicorp/packer-plugin-proxmox/builder/proxmox/common.(*Builder).Run(0x14000e89c00, {0x107ce2600, 0x14000a7f740}, {0x107ced8e8, 0x140010628d0}, {0x107c5d220, 0x14000c04da0}, {0x107ce32b0, 0x14001062900})
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/hashicorp/packer-plugin-proxmox@v1.0.4/builder/proxmox/common/builder.go:90 +0xb60
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/hashicorp/packer-plugin-proxmox/builder/proxmox/iso.(*Builder).Run(0x1400015d500, {0x107ce2600, 0x14000a7f740}, {0x107ced8e8, 0x140010628d0}, {0x107c5d220, 0x14000c04da0})
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/hashicorp/packer-plugin-proxmox@v1.0.4/builder/proxmox/iso/builder.go:54 +0x3e4
+2022/01/31 21:47:02 packer-builder-proxmox plugin: github.com/hashicorp/packer-plugin-sdk/rpc.(*BuilderServer).Run(0x1400013b1c0, 0x1, 0x140005882d4)
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/home/circleci/go/pkg/mod/github.com/hashicorp/packer-plugin-sdk@v0.2.11/rpc/builder.go:117 +0x220
+2022/01/31 21:47:02 packer-builder-proxmox plugin: reflect.Value.call({0x1400046aa20, 0x1400082e180, 0x13}, {0x105f7f805, 0x4}, {0x14000c0cf00, 0x3, 0x3})
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/usr/local/go/src/reflect/value.go:556 +0x5a8
+2022/01/31 21:47:02 packer-builder-proxmox plugin: reflect.Value.Call({0x1400046aa20, 0x1400082e180, 0x13}, {0x14000f8a700, 0x3, 0x3})
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/usr/local/go/src/reflect/value.go:339 +0x8c
+2022/01/31 21:47:02 packer-builder-proxmox plugin: net/rpc.(*service).call(0x1400013b200, 0x14000810c80, 0x140005c1410, 0x140005c1420, 0x1400062f480, 0x14000619d60, {0x106b1a640, 0x140005882d0, 0x18a}, {0x1069eb440, ...}, ...)
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/usr/local/go/src/net/rpc/server.go:377 +0x1a0
+2022/01/31 21:47:02 packer-builder-proxmox plugin: created by net/rpc.(*Server).ServeCodec
+2022/01/31 21:47:02 packer-builder-proxmox plugin: 	/usr/local/go/src/net/rpc/server.go:474 +0x2f8
+2022/01/31 21:47:02 [INFO] (telemetry) ending proxmox.autogenerated_1
+2022/01/31 21:47:02 ui error: [1;31mBuild 'proxmox.autogenerated_1' errored after 1 minute 16 seconds: unexpected EOF[0m
+2022/01/31 21:47:02 /opt/homebrew/bin/packer: plugin process exited
+2022/01/31 21:47:02 ui: 
+==> Wait completed after 1 minute 16 seconds
+2022/01/31 21:47:02 machine readable: error-count []string{"1"}
+2022/01/31 21:47:02 ui error: 
+==> Some builds didn't complete successfully and had errors:
+2022/01/31 21:47:02 machine readable: proxmox.autogenerated_1,error []string{"unexpected EOF"}
+2022/01/31 21:47:02 ui error: --> proxmox.autogenerated_1: unexpected EOF
+2022/01/31 21:47:02 ui: 
+==> Builds finished but no artifacts were created.
+2022/01/31 21:47:02 [INFO] (telemetry) Finalizing.
+2022/01/31 21:47:02 waiting for all plugin processes to complete...
+2022/01/31 21:47:02 /opt/homebrew/bin/packer: plugin process exited
+2022/01/31 21:47:02 /opt/homebrew/bin/packer: plugin process exited
